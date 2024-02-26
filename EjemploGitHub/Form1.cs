@@ -29,7 +29,18 @@ namespace EjemploGitHub
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Mensaje Borrar");
+            DialogResult mensaje = MessageBox.Show("Mensaje Borrar / Alejo gei", "información", MessageBoxButtons.OKCancel);
+            if (mensaje == DialogResult.OK)
+            {
+
+                MessageBox.Show("En efecto");
+            }
+            else
+            {
+                MessageBox.Show("No","Información");
+
+            }
+                   
         }
     }
 }
