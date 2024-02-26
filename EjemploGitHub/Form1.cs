@@ -24,7 +24,7 @@ namespace EjemploGitHub
 
         private void button1_Click(object sender, EventArgs e)
         {
-            menss
+            MessageBox.Show("Hola GitHub");
         }
     }
 }
