@@ -26,5 +26,10 @@ namespace EjemploGitHub
         {
             MessageBox.Show("Hola GitHub");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Mensaje Borrar");
+        }
     }
 }
